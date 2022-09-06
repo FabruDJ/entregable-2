@@ -41,7 +41,7 @@ function App() {
             <h1>Weather</h1>
             <h2>{weather.name} | {weather.sys?.country}</h2>
             <div className="icon-temp">
-              <img src={`http://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`} alt="" />
+              <img src={`https://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`} alt="" />
               <p>{isCelsius ? celsius : fahrenheit} {isCelsius ? 'ºC' : 'ºF'}</p>
             </div>
             <div className="max-min">
